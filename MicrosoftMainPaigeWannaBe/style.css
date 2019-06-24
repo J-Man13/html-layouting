@@ -1,0 +1,36 @@
+.navbar-brand{
+    display: flex;
+    align-content: center;
+    align-content: center;
+}
+
+.navbar-brand img{
+    height: 25px;
+}
+
+.navbar-expand-lg{
+    padding-left: 5px;
+    padding-right: 5px;   
+}
+
+.carousel img{
+    height: 400px;  
+    width:100%; 
+}
+.carousel-caption{
+    top: 40%;
+    left: 10%;
+    right: auto;
+}
+
+.card{
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+footer{
+    background: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
