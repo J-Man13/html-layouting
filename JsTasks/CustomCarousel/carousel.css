@@ -1,0 +1,53 @@
+div#carousel{
+    position:relative;  
+    margin: auto;
+    border: 5px solid black;
+    width: 1000px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#upper-bg-left{
+    border: 1px solid black;    
+    border: 0;
+    outline: none; 
+    cursor: pointer;
+    background-repeat: no-repeat;   
+    background-position: center;
+    position:absolute;
+    opacity: 0; 
+    bottom:50%;
+    left:0;
+    padding: 20px;
+    background-color: #ffea00;
+    background-image: url(/prev-small-black.png);
+    
+}
+
+#upper-bg-right{
+    border: 1px solid black;    
+    border: 0;
+    outline: none; 
+    cursor: pointer;
+    background-repeat: no-repeat;   
+    background-position: center;
+    position:absolute; 
+    opacity: 0; 
+    bottom:50%;
+    right:0;
+    padding: 20px;
+    background-color: #ffea00;
+    background-image: url(/next-small-black.png);
+    
+}
+
+div#carousel:hover #upper-bg-left{
+    opacity: 1;
+    transition: 500ms all;
+}
+
+div#carousel:hover #upper-bg-right{
+    opacity: 1;
+    transition: 500ms all;
+}

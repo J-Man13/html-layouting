@@ -1,0 +1,18 @@
+div#modal-window{
+    border: 2px solid black;
+    position: fixed;
+    visibility: hidden;
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: 500px;
+    overflow-y: scroll;
+}
+
+button#modal-window-content-close-button{
+    float: right;
+    border: 1px solid black;
+}
+
